@@ -21,15 +21,14 @@ public class MainActivity extends AppCompatActivity {
 
         String[] storySelection = getResources().getStringArray(R.array.story_selection);
 
-        Log.d("LENGTH", "StorySelection: " + (int)Math.random()*22 + 1);
-
         binding.generatorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //EditText input = binding.inputField;
+
+                int randomNumber = (int)((Math.random() * 22) + 1);
                 TextView t = binding.output;
-                //String text = input.getText().toString();
-                //t.setText(text);
+                String text = storySelection[randomNumber];
+                t.setText(text);
             }
         });
     }
