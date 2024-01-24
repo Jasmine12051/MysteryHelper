@@ -2,9 +2,7 @@ package com.example.lab01a;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.lab01a.databinding.ActivityMainBinding;

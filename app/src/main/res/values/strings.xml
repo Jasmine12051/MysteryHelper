@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Lab01A</string>
-    <string name="app_heading">Press the button to get story help...</string>
+    <string name="app_heading">Press the button to get story help…</string>
     <string name="generator_button">Get Help!</string>
     <string-array name="story_selection">
         <item>you get knocked out</item>
