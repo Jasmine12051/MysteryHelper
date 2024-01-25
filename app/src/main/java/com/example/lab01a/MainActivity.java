@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                int randomNumber = (int)((Math.random() * 22) + 1);
+                int randomNumber = (int)(Math.random() * 22);
                 TextView t = binding.output;
                 String text = storySelection[randomNumber];
                 t.setText(text);
